@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lista de Tarefas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Lista de Tarefas <span class="badge">Vanilla JS</span></h1>
+      <p class="subtitle">Adicione, conclua, exclua e persista suas tarefas no navegador.</p>
+    </header>
+
+    <form id="taskForm" autocomplete="off" class="input-area">
+      <input id="taskInput" type="text" placeholder="Digite uma tarefa e pressione Enter…" aria-label="Nova tarefa" />
+      <button id="addBtn" type="submit" title="Adicionar tarefa">Adicionar</button>
+    </form>
+
+    <div class="toolbar">
+      <label for="filter">Exibir:</label>
+      <select id="filter" aria-label="Filtro de tarefas">
+        <option value="all">Todas</option>
+        <option value="active">Pendentes</option>
+        <option value="done">Concluídas</option>
+      </select>
+      <button id="clearDoneBtn" class="secondary" title="Remover todas concluídas">Limpar concluídas</button>
+      <span id="counter" class="counter" aria-live="polite"></span>
+    </div>
+
+    <ul id="taskList" class="task-list" aria-live="polite"></ul>
+
+    <footer>
+      <p>Feito com ❤️ para portfólio. Código em <a href="#" id="repoLink" target="_blank" rel="noopener">GitHub</a>.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
