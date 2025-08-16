@@ -1,15 +1,45 @@
-# To-Do List
+To-Do List
 
-Projeto simples de lista de tarefas para fins de estudo e portfólio.
+Acabei de finalizar meu projeto de To-Do List! 
 
-## Funcionalidades
+Criei essa aplicação como parte do meu estudo em desenvolvimento web, usando HTML, CSS e JavaScript. O projeto permite:
+
 - Adicionar tarefas
+
 - Marcar tarefas como concluídas
-- Remover tarefas
 
-## Tecnologias
-- HTML, CSS, JavaScript
+ -Remover tarefas
 
-## Como usar
-1. Clonar o repositório
-2. Abrir o arquivo `index.html` em um navegador
+É um projeto simples, mas que serve como portfólio e experiência prática para futuros trabalhos e oportunidades.
+
+Tecnologias:
+
+HTML
+
+CSS
+
+JavaScript
+
+Como usar:
+
+Clone o repositório:
+
+git clone https://github.com/leandro-amaro/todo-list.git
+
+Abra o projeto em seu editor de código (por exemplo, VS Code).
+
+Abra o arquivo index.html no navegador.
+
+Screenshots
+![Tela inicial](screenshots/home.png)
+![Adicionando tarefas](screenshots/add-task.png)
+![Tarefas concluídas](screenshots/completed.png)
+
+Links
+
+Código completo no GitHub: https://github.com/leandro-amaro/todo-list
+
+Seguindo este README, qualquer pessoa poderá entender, usar e avaliar seu projeto. Ele já está pronto para ser mostrado como portfólio.
+
+#Portfólio #Estudo #DesenvolvimentoWeb #ToDoList #GitHub #Projetos #BoasPráticas
+
