@@ -11,15 +11,20 @@ Criei essa aplicação como parte do meu estudo em desenvolvimento web, usando *
 
 <div align="center">
 
-  <img src="screenshots/home.png" width="200" alt="Tela inicial" style="margin: 10px;">
-  <img src="screenshots/add-task.png" width="200" alt="Adicionando tarefas" style="margin: 10px;">
-  <img src="screenshots/completed.png" width="200" alt="Tarefas concluídas" style="margin: 10px;">
+  <figure style="display: inline-block; margin: 15px;">
+    <img src="screenshots/home.png" width="250" alt="Tela inicial">
+    <figcaption><strong>Tela inicial</strong></figcaption>
+  </figure>
 
-  <p>
-    <strong>Tela inicial</strong> &nbsp;&nbsp; | &nbsp;&nbsp;
-    <strong>Adicionando tarefas</strong> &nbsp;&nbsp; | &nbsp;&nbsp;
-    <strong>Tarefas concluídas</strong>
-  </p>
+  <figure style="display: inline-block; margin: 15px;">
+    <img src="screenshots/add-task.png" width="250" alt="Adicionando tarefas">
+    <figcaption><strong>Adicionando tarefas</strong></figcaption>
+  </figure>
+
+  <figure style="display: inline-block; margin: 15px;">
+    <img src="screenshots/completed.png" width="250" alt="Tarefas concluídas">
+    <figcaption><strong>Tarefas concluídas</strong></figcaption>
+  </figure>
 
 </div>
 
@@ -38,5 +43,6 @@ Criei essa aplicação como parte do meu estudo em desenvolvimento web, usando *
 1. Clone o repositório:
 ```bash
 git clone https://github.com/leandro-amaro/todo-list.git
+
 
 
