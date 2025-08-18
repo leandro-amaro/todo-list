@@ -1,38 +1,81 @@
-# To-Do List (Vanilla JS)
+# ✅ To-Do List (Vanilla JS)
 
-Um aplicativo simples de lista de tarefas, construído com **HTML, CSS e JavaScript puro**.
-
-## Funcionalidades
-- Adicionar, editar, concluir e remover tarefas
-- Filtrar tarefas (todas, pendentes, concluídas)
-- Botão para limpar tarefas concluídas
-- Contador dinâmico de tarefas (total, pendentes, concluídas)
-- Persistência usando `localStorage`
-
-## Tecnologias
-- **HTML5** — estrutura semântica e acessível
-- **CSS3** — tema escuro, variáveis CSS, design responsivo
-- **JavaScript (Vanilla)** — manipulação do DOM, eventos e lógica de aplicação
-
-## Como executar
-1. Clone este repositório  
-2. Abra o `index.html` no navegador — o projeto roda localmente sem configuração adicional
-
-## Visão pessoal
-Este projeto me ajudou a consolidar conceitos fundamentais de front-end e a estruturar uma aplicação do início ao fim. É uma base robusta para futuras evoluções com back-end ou frameworks modernos.
+Um projeto de **lista de tarefas** desenvolvido durante meus estudos em **Análise e Desenvolvimento de Sistemas**.  
+O objetivo foi aplicar conceitos de **desenvolvimento web** utilizando **HTML, CSS e JavaScript puro (Vanilla JS)**, consolidando aprendizados e criando algo útil para portfólio.
 
 ---
 
-##  Passos recomendados
+## 🎯 Motivações
 
-1. **Fixar no perfil**: o To-Do List e seu Notes Web App com Flask.
-2. **Atualizar os READMEs** com os detalhes acima.
-3. **Criar o repositório do Notes Web App**, se ainda não o fez, e adicionar README conforme o exemplo.
-4. Considere **hospedar ao menos o To-Do List com GitHub Pages**.
-5. Mantenha consistência na atividade — commits semanais mostram engajamento contínuo.
+Escolhi desenvolver esta **To-Do List** porque é uma aplicação simples, mas que exige conhecimento prático de HTML, CSS e JS, além de lógica de programação e persistência de dados.  
+O projeto serve para:
+
+- Aprender manipulando o **DOM e eventos em JavaScript**  
+- Criar um **CRUD completo** (adicionar, editar, concluir e remover tarefas)  
+- Pensar em **UX/UI** e usabilidade  
+- Produzir algo que **pode ser usado por outras pessoas** no dia a dia
 
 ---
 
-No geral, seu perfil já está no caminho certo: claro, direto e com bons sinais de aprendizado. Com pequenas melhorias nos READMEs e mais projetos ou demonstrações, ele ficará ainda mais forte. Quer ajuda para escrever o README do Notes Web App ou elaborar seu projeto com Flask?
+## 📌 Funcionalidades
 
-Vamos lá!0
+- ➕ Adicionar novas tarefas  
+- ✏️ Editar tarefas existentes  
+- ✅ Marcar tarefas como concluídas  
+- ❌ Excluir tarefas individualmente  
+- 🧹 Limpar todas as tarefas concluídas  
+- 🔍 Filtrar tarefas: todas | pendentes | concluídas  
+- 📊 Contador dinâmico (total, pendentes e concluídas)  
+- 💾 Persistência com **LocalStorage**
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+- **HTML5** → estrutura semântica e acessível  
+- **CSS3** → tema escuro, variáveis CSS e layout responsivo  
+- **JavaScript (Vanilla)** → manipulação de DOM, eventos e lógica de aplicação  
+
+---
+
+## 📘 Aprendizados
+
+- Criar uma aplicação web do zero  
+- Manipulação de DOM e eventos em JavaScript  
+- Implementar um **CRUD completo**  
+- Persistência de dados com LocalStorage  
+- Organização do código em funções reutilizáveis  
+- Criar interface clara e intuitiva (UX/UI)
+
+---
+
+## 👥 Beneficiários
+
+- Estudantes de programação  
+- Iniciantes em JavaScript  
+- Usuários que querem organizar tarefas do dia a dia  
+
+---
+
+## 📂 Como executar o projeto (tudo em um script)
+
+Você pode copiar e colar este bloco diretamente no terminal (Linux/macOS/Windows PowerShell) para **clonar, entrar na pasta e abrir no navegador**:
+
+```bash
+# Clonar repositório
+git clone https://github.com/leandro-amaro/to-do-list.git
+
+# Entrar na pasta do projeto
+cd to-do-list
+
+# Abrir no navegador (Linux/macOS)
+if command -v xdg-open >/dev/null 2>&1; then
+    xdg-open index.html
+elif command -v open >/dev/null 2>&1; then
+    open index.html
+# Abrir no Windows (PowerShell)
+elif command -v start >/dev/null 2>&1; then
+    start index.html
+else
+    echo "Abra manualmente o arquivo index.html no navegador"
+fi
